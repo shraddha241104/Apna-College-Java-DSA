@@ -1,3 +1,4 @@
 # Apna-College-Java-DSA
 From 0 to Advanced level - my learning journey of JAVA
 DAY - 1 FLOWCHARTS, VARIABLES AND DATA TYPES
+DAY - 2 OPERATORS, CONDITIONAL STATEMENTS AND LOOPS
