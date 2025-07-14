@@ -13,7 +13,7 @@ public class ArrayBasics {
             System.out.println(marks[i]);
         }
         for (int i = 0; i < marks.length; i++) {
-            marks[i] = marks[i] + 3;
+            marks[i] = marks[i] + 1;
         }
         for (int i = 0; i < marks.length; i++) {
             System.out.println(marks[i]);
