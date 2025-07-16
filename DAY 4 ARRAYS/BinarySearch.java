@@ -24,7 +24,7 @@ public class BinarySearch {
         int key = 30;
         int idx = BinarySearchArray(arr, key);
         int position = idx + 1;
-        System.out.println("index of " + key + " in array is: " + idx);
+        System.out.println("index of " + key + "in array is: " + idx);
         System.out.println("position of " + key + " in array is: " + position);
     }
 }
