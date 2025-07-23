@@ -17,10 +17,16 @@ public class SpiralMatrix {
             }
             //bottom
             for (int i = endCol - 1; i >= startRow; i--) {
+                if (startRow == endRow) {
+                    break;
+                }
                 System.out.print(matrix[endRow][i] + " ");
             }
             //left
             for (int i = endRow - 1; i > startRow; i--) {
+                if (startCol == endCol) {
+                    break;
+                }
                 System.out.print(matrix[i][startCol] + " ");
             }
             startRow++;
@@ -28,6 +34,7 @@ public class SpiralMatrix {
             startCol++;
             endCol--;
         }
+        System.out.println();
     }
 
     public static void main(String args[]) {
