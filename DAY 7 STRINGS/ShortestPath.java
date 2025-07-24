@@ -1,7 +1,7 @@
 
 public class ShortestPath {
 
-    public static int findShortestPath(String str) {
+    public static float findShortestPath(String str) {
         int x1 = 0;
         int x2 = 0;
         int y1 = 0;
@@ -17,13 +17,13 @@ public class ShortestPath {
                 y2--;
             }
         }
-        int shortestPath = (int) Math.sqrt((Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2)));
+        float shortestPath = (float) Math.sqrt((Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2)));
         return shortestPath;
     }
 
     public static void main(String args[]) {
         String directions = "WNEENESENNN";
-        int shortestPath = findShortestPath(directions);
+        float shortestPath = findShortestPath(directions);
         System.out.println("shortest path = " + shortestPath);
     }
 }
