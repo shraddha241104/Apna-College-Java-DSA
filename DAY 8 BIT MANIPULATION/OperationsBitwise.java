@@ -35,8 +35,10 @@ public class OperationsBitwise {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int i = sc.nextInt();
+        int newBit = sc.nextInt();
         System.out.println(GetIthBit(number, i));
         System.out.println(SetIthBit(number, i));
         System.out.println(ClearIthBit(number, i));
+        System.out.println(UpdateIthBit(number, i, newBit));
     }
 }
