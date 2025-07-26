@@ -23,6 +23,14 @@ public class OperationsBitwise {
         return number & bitmask;
     }
 
+    public static int UpdateIthBit(int number, int i, int newBit) {
+        if (newBit == 0) {
+            return ClearIthBit(number, i);
+        } else {
+            return SetIthBit(number, i);
+        }
+    }
+
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
