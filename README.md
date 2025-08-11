@@ -1,5 +1,5 @@
 ```
-Note: DSA is difficult and cannot be completed quickly
+Note: DSA is difficult and cannot be completed quickly. DSA is core concept
 # Apna-College-Java-DSA
 From 0 to Advanced level - my learning journey of JAVA
 DAY - 1 FLOWCHARTS, VARIABLES AND DATA TYPES
