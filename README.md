@@ -1,5 +1,6 @@
 ```
-Note: DSA is difficult and cannot be completed quickly. DSA is core concept
+Breaks taken : August 4 - August 12 (CAE - 1)
+Note: DSA is difficult and cannot be completed quickly. DSA is core concept.
 # Apna-College-Java-DSA
 From 0 to Advanced level - my learning journey of JAVA
 DAY - 1 FLOWCHARTS, VARIABLES AND DATA TYPES
