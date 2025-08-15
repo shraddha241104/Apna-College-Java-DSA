@@ -37,7 +37,7 @@ public class MergeSort {
         merge(arr, si, mid, ei);
     }
 
-    public static void printArry(int arr[]) {
+    public static void printArray(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
@@ -48,6 +48,6 @@ public class MergeSort {
         int si = 0;
         int ei = arr.length - 1;
         mergeSort(arr, si, ei);
-        printArry(arr);
+        printArray(arr);
     }
 }
