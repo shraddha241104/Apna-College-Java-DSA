@@ -2,7 +2,7 @@
 Breaks taken : August 4 - August 14 (CAE - 1).
 Note: DSA is difficult and cannot be completed quickly. DSA is core concept.
 # Apna-College-Java-DSA
-From 0 to Advanced level - my learning journey of JAVA
+From 0 to Advanced level - my learning journey of JAVA.
 DAY - 1 FLOWCHARTS, VARIABLES AND DATA TYPES
 DAY - 2 OPERATORS, CONDITIONAL STATEMENTS AND LOOPS
 DAY - 3 PATTERNS AND FUNCTIONS
