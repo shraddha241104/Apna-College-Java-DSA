@@ -24,6 +24,5 @@ public class ArrBackTrack {
         int arr[] = new int[5];
         changeArr(arr, 0, 1);
         printArr(arr);
-
     }
 }
