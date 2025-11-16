@@ -13,7 +13,10 @@ public class SortAL {
         System.out.println("Before Sorting");
         System.out.println(list);
         Collections.sort(list);
-        System.out.println("After Sorting");
+        System.out.println("After Sorting (ascending)");
+        System.out.println(list);
+        System.out.println("After Sorting (descending)");
+        Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
     }
 }
