@@ -12,10 +12,10 @@ public class OptimizedContainerWater {
             int width = rp - lp;
             int currWater = ht * width;
             maxWater = Math.max(maxWater, currWater);
-            if (lp < rp) {
+            if (heights.get(lp) < heights.get(rp)) {
                 lp++;
             } else {
-                rp++;
+                rp--;
             }
         }
         return maxWater;
