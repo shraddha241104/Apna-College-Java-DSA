@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class PairSum2 {
+public class OptimizedPairSum1 {
 
     public static boolean pairSum2(ArrayList<Integer> list, int target) {
         int lp = 0;
