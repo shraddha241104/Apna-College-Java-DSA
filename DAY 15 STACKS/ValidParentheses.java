@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class ValidParanthesis {
+public class ValidParentheses {
 
     public static boolean validator(String str) {
         Stack<Character> s = new Stack<>();
