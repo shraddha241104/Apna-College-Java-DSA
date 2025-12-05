@@ -41,10 +41,10 @@ public class TreeTopView {
                     break;
                 } else {
                     q.add(null);
-                    continue;
+                    
                 }
-            }
-            if (!map.containsKey(curr.hd)) {
+            }else{
+                if (!map.containsKey(curr.hd)) {
                 map.put(curr.hd, curr.node);
             }
             if (curr.node.left != null) {
@@ -55,6 +55,7 @@ public class TreeTopView {
                 q.add(new Info(curr.node.right, curr.hd + 1));
                 max = Math.max(max, curr.hd + 1);
             }
+            }   
         }
         for (int i = min; i <= max; i++) {
             System.out.print(map.get(i).data + " ");
