@@ -48,6 +48,22 @@ public class LCommonAncestor {
         return lca;
     }
 
+    public static Node lca2(Node root, int n1, int n2) {
+        if (root == null || root.data == n1 || root.data == n2) {
+            return root;
+        }
+        Node lcaLeft = lca2(root.left, n1, n2);
+        Node lcaRight = lca2(root.right, n1, n2);
+
+        if (lcaRight == null) {
+            return lcaLeft;
+        }
+        if (lcaLeft == null) {
+            return lcaRight;
+        }
+        return root;
+    }
+
     public static void main(String args[]) {
         /*
         1
@@ -66,5 +82,6 @@ public class LCommonAncestor {
         root.right.right = new Node(7);
         Node lowestCommonAncestor = lca(root, 4, 5);
         System.out.println("lowest common ancestor : " + lowestCommonAncestor.data);
+        System.out.println("lowest common ancestor (optimized) : " + lca2(root, 4, 6).data);
     }
 }
