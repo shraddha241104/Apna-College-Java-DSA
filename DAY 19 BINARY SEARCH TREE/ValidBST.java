@@ -35,7 +35,7 @@ public class ValidBST {
         } else if (max != null && root.data >= max.data) {
             return false;
         }
-        return validation(root.left, min, max) && validation(root.right, min, max);
+        return validation(root.left, min, root) && validation(root.right, root, max);
     }
 
     public static void inorder(Node root) {
