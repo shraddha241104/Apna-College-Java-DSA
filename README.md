@@ -27,5 +27,8 @@ DAY - 23 TRIES
 DAY - 24 GRAPHS
 DAY - 25 DYNAMIC PROGRAMMING (DP)
 DAY - 26 SEGMENT TREES
+
+completed on : 30 Dec 2025
+
 ------------------------------END------------------------------
 ```
